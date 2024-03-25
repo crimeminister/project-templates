@@ -34,11 +34,11 @@ jobs:
           restore-keys: clojure-deps-
 
       - name: "Install tools"
-        uses: DeLaGuardo/setup-clojure@12.3
+        uses: DeLaGuardo/setup-clojure@12.5
         with:
-          cli: 1.11.1.1435 # Clojure CLI
-          cljstyle: 0.15.0
-          clj-kondo: 2023.03.17
+          cli: 1.11.2.1446 # Clojure CLI
+          cljstyle: 0.16.626
+          clj-kondo: 2024.03.13
 
       - name: "Kaocha test runner"
         run: clojure -X:test/env:test/run
