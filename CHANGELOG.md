@@ -3,6 +3,8 @@
 All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
 # [Unreleased]
+## Changed
+- dev: repository trivy ignore CVE-2024-22871
 
 
 # 2024-01-23
@@ -10,6 +12,7 @@ All notable changes to this project will be documented in this file. This change
 - health: remove FUNDING.yaml and use Practicalli Org file
 - readme: update sponsorship link to practicalli-johnny account
 - dev: add license to project and templates with gitignore pattern
+- minimal: update `-main` to print return values
 
 
 # 2024-01-05
