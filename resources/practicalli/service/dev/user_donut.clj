@@ -38,8 +38,7 @@
   (println "(start)                        ; starts all components in system config")
   (println "(restart)                      ; read system config, reloads changed namespaces & restarts system")
   (println "(stop)                         ; shutdown all components in the system")
-  ;; (println "(system)                       ; show configuration of the running system")
-  ;; (println "(config)                       ; show system configuration")
+  (println "(system)                       ; show configuration of the running system")
   (println)
   (println "Hotload libraries:             ; Clojure 1.12.x")
   (println "(add-lib 'library-name)")
@@ -76,9 +75,9 @@
 ;; and set global context for all events
 
 ;; Example mulog event message
-(mulog/log ::dev-user-ns
-           :message "Example event from user namespace"
-           :ns (ns-publics *ns*))
+#_(mulog/log ::dev-user-ns
+             :message "Example event from user namespace"
+             :ns (ns-publics *ns*))
 ;; ---------------------------------------------------------
 
 ;; ---------------------------------------------------------
