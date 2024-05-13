@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file. This change
 
 # [Unreleased]
 
+# 2024-04-20
+## Changed
+- service: system helper function in repl help menu
+- security: update to clojure 1.11.2
+- library: update tools.build to 0.10.0 - caches correctly in docker
+- templates: update mulog-events/stop publisher help & example
+- make: docker-build-log task to create log file of all docker output for diagnosis
+
 # 2024-04-08
 
 ## Changed
